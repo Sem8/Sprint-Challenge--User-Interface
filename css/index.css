@@ -214,3 +214,22 @@ button:hover {
 	color: white;
 	font-size: 150%;
 }
+
+@media screen and (max-width: 479px) {
+	.top-image {
+	  width: 100%;
+	}
+	.top-content {
+		width: 100%;
+	  }
+	.text-container {
+		width: 100%;
+	  }
+	.middle-content {
+		width: 100%;
+	  }
+	.bottom-content {
+		width: 100%;
+	  }
+	
+  }

@@ -191,6 +191,7 @@ header nav a {
 
 .bottom-content {
     padding: 20px;
+    margin-bottom: 20px;
 }
 .bottom-content h4 {
     font-size: 24px;
@@ -231,4 +232,29 @@ button:hover {
 	color: white;
 	font-size: 150%;
 }
+
+@media screen and (max-width: 600px) {
+	.top-image {
+	  width: 100%;
+	}
+	.about-page-text {
+		width: 100%;
+	  }
+	.middle-content-one {
+		width: 100%;
+	  }
+	/* .middle-content-one-right {
+		width: 100%;
+	  } */
+	.middle-content-two {
+		width: 100%;
+	  }
+	/* .middle-content-two-left {
+		width: 100%;
+      } */
+      .bottom-content {
+		width: 100%;
+	  }
+  }
+
 
